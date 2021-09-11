@@ -1,0 +1,439 @@
+/*タブレット版の調整*/
+@media screen and (max-width: 768px){
+
+    header h1 a img{
+        
+        margin: 0 auto !important;
+    }
+
+    main .main_container{
+        margin: 0 1.5%;
+    }
+
+    .kawara_kowai img{
+        margin: 0 auto;
+    }
+
+    .top_image .pc{
+        display:none !important;
+    }
+
+    .top_image .sp{
+        display:block !important;
+    }
+
+    .kawara_kowai .sp{
+        display:block !important;
+      }
+    .kawara_kowai .pc{
+        display:none !important;
+      }
+
+    .movie{
+        flex-direction:column;
+    }
+
+    .movie_box{
+        margin: 0 auto;
+        width: 93%;
+    }
+
+
+
+
+
+
+
+
+
+    .center_title .pc{
+        display: none !important;
+     }
+     .center_title .sp{
+        display: block !important;
+     }
+
+     .center_icon1{
+         display:none;
+     }
+
+     .center_c_box{
+         flex-direction:column;
+     }
+
+     .center_b_r{
+         padding-left: 0px !important;
+     }
+
+     .tsuchibuki .pc{
+       display:none !important;
+     }
+
+     .tsuchibuki .sp{
+         display:block !important;
+         margin: 0 auto;
+     }
+
+    .center_f_i .pc{
+        display: none !important;
+    }
+    .center_f_i .sp{
+        display: block !important;
+        margin: 0 auto;
+    }
+
+    .center_b_s h5{
+        font-size: 1.6rem !important;
+    }
+
+    .center_b_s{
+        float: none !important;
+        margin: 0 auto;
+        width:95% !important;
+    }
+
+    .second_center{
+      margin: 0 3.9% !important;
+      width: auto !important;
+    }
+
+    .second_center .pc{
+        display: none !important;
+    }
+    .second_center .sp{
+        display: block !important;
+    }
+
+    .second_right{
+        width:100% !important;
+    }
+
+    .second_right .pc{
+        display:none !important;
+    }
+    .second_right .sp{
+        display: block !important;;
+    }
+
+    .second_center_block{
+        display:block !important;
+    }
+
+    .kawara_design{
+        margin: 50px auto 50px !important;
+    }
+
+
+
+    .kawara_design .pc{
+        display: none !important;;
+    }
+    .kawara_design .sp{
+        display: block !important;;
+    }
+
+    .linenap{
+        display:block;
+    }
+
+    .try{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .try h3{
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .bousai h3{
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .linenap .try ul{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .bousai{
+        padding: 0;
+        width:100%;
+    }
+
+    .bousai ul{
+        display:flex;
+        justify-content: center !important;
+    }
+
+    .try ul li .pc{
+        display: none;
+    }
+    
+    .try ul li .sp{
+        display: block;
+    }
+
+    .kawara_chigai{
+        padding-bottom: 50px;
+    }
+
+    .kawara_chigai .pc{
+        display:none !important;
+    }
+    
+    .kawara_chigai .sp{
+        display:block !important;
+    }
+
+    .kawara_icon .pc{
+        display:none;
+    }
+    
+    .kawara_icon .sp{
+        display:block;
+    }
+
+    .kawara_box{
+        width: 100%;
+    }
+
+    .kawara_aichi{
+        width: 100%;
+    }
+
+    .aichi_pre{
+        width:20%;
+    }
+    
+
+    .kawara_box ul li .pc{
+        display:none;
+    }
+    
+    .kawara_box ul li .sp{
+        display:block;
+    }
+
+    .kawara_chigai_inner{
+        display:block;
+    }
+
+    .koremade{
+        width:50%;
+
+    }
+
+    .tsuruya_yane{
+        width:50%;
+    }
+
+    .yane{
+        float: none;
+    }
+
+    .flex_box_noborder_theme{
+       flex-direction: column;
+    }
+
+    .theme2,.theme3,.theme4{
+        margin: 0 2.5%;
+        margin-bottom: 25px;
+    }
+
+    .theme2 h2 .pc{
+        display: none;
+    }
+    .theme2 h2 .sp{
+        display: block;
+    }
+
+    .theme2_right{
+        float: none;
+        margin: 10px 0 0 ;
+        width: 100%;
+    }
+
+    .theme2_right ul li .pc{
+        display:none;
+    }
+    .theme2_right ul li .sp{
+        display:block;
+    }
+
+    .theme2_left {
+        float: none;
+        width: 100%;
+    }
+
+    .theme3 h2 .pc {
+        display: none;
+    }
+    .theme3 h2 .sp {
+        display: block;
+    }
+
+    .theme2_left{
+        width:100%;
+        
+    }
+
+    .theme3_left{
+        max-width:none;
+    }
+
+    .theme3_left figure .pc{
+        display:none;
+     }
+     .theme3_left figure .sp{
+        display:block;
+     }
+
+     .theme3_right{
+         float:none;
+         width:100%;
+         max-width:none;
+     }
+
+     .theme3_right figure .pc{
+        display:none;
+    }
+    .theme3_right figure .sp{
+        display:block;
+    }
+
+    .flex_box_noborder_kaiteki{
+        display:block;
+    }
+
+    .theme4 h2 .pc{
+        display:none;
+    }
+    .theme4 h2 .sp{
+        display:block;
+    }
+
+    .theme4_left{
+        max-width: none;
+    }
+
+    .theme4_left h4 br{
+        display:none;
+    }
+
+    .theme4_right{
+        max-width:none;
+    }
+
+    .theme4_right ul li .pc{
+        display: none;
+    }
+    .theme4_right ul li .sp{
+        display: block;
+    }
+
+    .fukkou h3 .pc{
+        display:none;
+    }
+    .fukkou h3 .sp{
+        display:block;
+    }
+
+    .juutaku{
+        max-width:none;
+        width: 100%;
+    }
+
+    .megane{
+        top: -14.5%;
+        width: 22%;
+    }
+
+    .megane .pc{
+        display:none;
+    }
+    
+    .megane .sp{
+        display: block;
+    }
+
+    .subete .pc{
+        display: none;
+    }
+    .subete .sp{
+        display: block;
+    }
+    
+    .kaeru .pc{
+        display: none;
+    }
+    
+    .kaeru .sp{
+        display: block;
+    }
+
+    .rp_inner{
+        margin: 0 30px;
+    }
+
+    .button{
+        display:block;
+    }
+
+    .button  li a{
+        display:inline-block;
+        width:100%;
+        padding: 20px 0 20px 35px;
+    }
+    .button  li a:first-child{
+        margin-bottom: 10px;
+    }
+
+    .button2{
+        float:none;
+    }
+
+    .button2 li a{
+        display: inline-block;
+        width:100%;
+        padding:20px 0 20px 35px
+    }
+
+    .button_final{
+        display:block;
+    }
+
+    .button_final li:first-child{
+        margin-right:0px;
+    }
+
+    .button_final li a{
+        width:100%;
+        display:inline-block;
+    }
+
+    .button_final li a:first-child{
+        margin-bottom: 10px;
+        
+    }
+
+    .theme1 h2 .pc{
+        display:none;
+        }
+        .theme1 h2 .sp{
+        display:block;
+        }
+        
+        .yane .pc {
+            display: none;
+        }
+
+        .yane .sp {
+            display:block;
+        }
+        
+
+
+}
+

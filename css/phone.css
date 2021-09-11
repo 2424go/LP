@@ -1,0 +1,366 @@
+/*スマートフォン用の使用を作っていく*/
+
+@media screen and (max-width: 430px){
+
+    .himitsu_box{
+        flex-direction: column !important;
+    }
+
+    .himitsu1 .pc {
+        display:none;
+    }
+    .himitsu1 .sp {
+        display:block;
+    }
+    .himitsu2 .pc {
+        display:none;
+    }
+    .himitsu2 .sp {
+        display:block;
+    }
+    .himitsu3 .pc {
+        display:none;
+    }
+    .himitsu3 .sp {
+        display:block;
+    }
+
+    .himitsu1{
+        margin: 0 1.179245% 10px;
+    }
+    .himitsu2{
+        margin: 0 1.179245% 10px;
+    }
+    .himitsu3{
+        margin: 0 1.179245% 10px;
+    }
+
+    .himitsu_contents{
+        line-height: 1.7rem;
+        padding: 10px 3% 15px;
+    }
+
+    .center_box p br{
+        display:none
+    }
+
+    .center_title{
+        margin-right:70px;
+    }
+    .center_icon2{
+        top: -20px;
+    }
+
+    .center_b_l h5{
+        font-size: 1.4rem;
+    }
+    .center_b_r h5{
+        font-size: 1.4rem;
+    }
+
+    .center_b_s h4 img{
+        top: -40px;
+        left: 10px;
+    }
+
+    .center_b_s h5{
+        font-size: 1.4rem !important;
+        padding: 5% 0 0;
+        padding-bottom: 8px;
+    }
+    .center_box p{
+        margin-bottom: 8px;
+    }
+
+    .center_f_i{
+        margin: 0 10px 10px 10px; 
+    }
+
+    .second_center h2{
+        margin-bottom: 25px;
+    }
+
+    .second_left h3 {
+        text-align: center;
+    }
+
+    .kawara_design{
+        margin: 0 3.9% !important;
+        width: auto !important;
+    }
+    .kawara_design p{
+        line-height: 1.5;
+    }
+
+    .kawara_design h2{
+        padding-top:  30px;
+    }
+
+    .button li a{
+    padding: 25px 0 25px 35px;
+    }
+
+    .button2{
+        padding-top: 10px;
+        padding-bottom: 10;
+    }
+
+    .button2 li a{
+        padding: 25px 0 25px 35px;
+    }
+
+    .slick-slide img{
+        margin: 0 auto;
+    }
+
+    .kawara_chigai{
+        padding-bottom: 0;
+    }
+
+    .kawara_chigai h3 .sp{
+       
+        text-align: left;   
+        width:76%;
+    }
+
+    .kawara_chigai .kawara_icon {
+        position: absolute;
+        top: 0px;
+        left: 80%;
+        /* height: 20%; */
+        width: 20%;
+        width: 15%;
+    }
+    
+    .kawara_aichi{
+        margin-left: 0;
+    }
+
+    .aichi_sen{
+        overflow: hidden;
+    }
+    .kawara_aichi h3 .sp{
+        width:100%;
+    }
+
+    .theme1,.theme2,.theme3,.theme4{
+        margin: 0 3%;
+    }
+
+    .theme2_left h4{
+        margin: 20px 0;
+    }
+    .theme2_left .theme2_left_sentence {
+        margin-bottom: 30px;
+    }
+
+    .theme3_left p {
+        line-height: 1.4rem;
+    }
+
+    .under_sentence{
+        margin-bottom: 30px;
+    }
+
+    .theme3_right h4 br{
+     display:none;
+    }
+    .theme3_right h4{
+       font-size: 1.24rem;
+    }
+    .theme3_right p{
+       line-height: 1.6rem;
+    }
+
+    .theme4_left h4{
+        font-size: 1.2rem;
+    }
+
+    .theme4_right{
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .fukkou h3 .sp {
+        width:78%;
+    }
+
+    .rp_inner{
+        margin: 0;
+    }
+
+    .final_inner{
+        margin: 0 4%;
+    }
+
+    .button_final{
+        margin: 0 10%;
+    }
+
+    .button_final li .button_red{
+        padding: 25px 0 25px 35px;
+    }
+    .button_final li .button_red_final{
+        padding: 25px 0 25px 35px;
+    }
+
+    footer{
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .footer_top{
+       
+        display: block;
+        margin: -56px auto 10px;
+        width: 101px;
+        height: 71px;
+    }
+
+    .footer_top a{
+        
+        display:block;
+        background-image:  url(../img/pageTop.png) ;
+        background-repeat: no-repeat;
+        width:100%;
+        height: 100%;
+        text-indent:-9999px;
+        
+
+    }
+
+    .flex_box_noborder_kaitekiff {
+        display: block;
+        margin-bottom: 75px;
+        justify-content: space-between;
+    }
+
+}
+
+/*スマホモバイルmサイズ対応*/
+
+@media screen and (max-width: 380px){
+
+   .center_b_l h4{
+       margin-top: 16px;
+   }
+   .center_b_r h4{
+       margin-top: 16px;
+   }
+
+   .tsuchibuki .sp{
+       margin-bottom: 20px;
+   }
+
+   .kawara_aichi .sp{
+       margin-bottom: 16px;
+   }
+
+   .koremade h3 {
+       font-size: 1.3rem;
+   }
+   .koremade h4 {
+       font-size: 1.1rem;
+   }
+    .tsuruya_yane h3{
+        font-size: 1.3rem;
+    }
+    .tsuruya_yane h4{
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    .ttl_span{
+        font-size: 1.1rem;
+    }
+
+    .theme3_right{
+        margin-bottom: 30px;
+    }
+
+    footer{
+        line-height: 1.1;
+    }
+
+    .subete {
+        margin-top: 40px;
+        margin-bottom: 25px;
+        margin-right: 23px;
+    }
+
+
+}
+
+/*スマホsサイズ対応のもの*/
+
+@media screen and (max-width: 330px){
+    .center_box p{
+        margin-bottom: 17px;
+    }
+
+    .second_left h3{
+        font-size: 1.3rem;
+    }
+
+    .button{
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .many_items{
+        margin-top: 33px;
+    }
+
+    .koremade h3{
+        font-size: 1.2rem;
+    }
+
+    .tsuruya_yane h3{
+        font-size: 1.2rem;
+    }
+    .tsuruya_yane h4{
+        margin-bottom: 12px;
+    }
+
+    .theme2_right{
+        margin-top: 30px;
+    }
+    .theme2_left h4{
+        line-height: 1.6rem;
+        
+    }
+
+    .theme2_left .theme2_left_sentence {
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    .theme3_left p {
+        line-height: 1.5rem;
+    }
+
+    .theme3_left p {
+        line-height: 1.5rem;
+    }
+
+    .under_sentence {
+        margin-bottom: 30px;
+    }
+
+    .theme3_right h4 {
+        line-height: 1.9rem;
+    }
+
+    .kawara_design h2 {
+         padding-top: 0px; 
+    }
+
+    .subete{
+        margin-right: 0;
+    }
+
+    .kaeru{
+        margin-right: 30px;
+    }
+
+}

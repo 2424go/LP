@@ -1,0 +1,5 @@
+/*文字のフォントを変えます*/
+
+ .font_m{
+    font-family:'Meiryo',"Hiragino Kaku Gothic ProN",Sans-Serif;
+}
